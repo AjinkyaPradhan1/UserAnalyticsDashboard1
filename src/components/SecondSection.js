@@ -1,15 +1,67 @@
 import React from "react"
 import "../components/css/secondSection.css"
 
-const FirstSection = ()=>{
+const SecondSection = ()=>{
+
+    
     return(
         <div className="sContent">
 
             <div className="sContent_left">
-                <div className="sContent_left_visits"></div>
-                <div className="sContent_left_subs"></div>
-                <div className="sContent_left_acUsers"></div>
-                <div className="sContent_left_clicks"></div>
+
+                <div className="sContent_left_visits">
+                    <div className="sContent_left_data">
+                        <div className="sContent_left_data_1">
+                            <div className="sContent_left_data_1_square"></div>
+                        </div>
+
+                        <div className="sContent_left_data_2">
+                            <div className="sContent_left_data_2_content">
+                                <div className="sContent_left_data_2_content1">Total Visits</div>
+                                <div className="sContent_left_data_2_content2"></div>
+                            </div>
+                        </div>
+
+                        <div className="sContent_left_data_3"></div>
+                    </div>
+                </div>
+
+                <div className="sContent_left_subs">
+                    <div className="sContent_left_data">
+                        <div className="sContent_left_data_1">
+                            <div className="sContent_left_data_1_square"></div>
+                        </div>
+
+                        <div className="sContent_left_data_2"></div>
+
+                        <div className="sContent_left_data_3"></div>
+                    </div>
+                </div>
+
+                <div className="sContent_left_acUsers">
+                    <div className="sContent_left_data">
+                        <div className="sContent_left_data_1">
+                            <div className="sContent_left_data_1_square"></div>
+                        </div>
+
+                        <div className="sContent_left_data_2"></div>
+
+                        <div className="sContent_left_data_3"></div>
+                    </div>
+                </div>
+
+                <div className="sContent_left_clicks">
+                    <div className="sContent_left_data">
+                        <div className="sContent_left_data_1">
+                            <div className="sContent_left_data_1_square"></div>
+                        </div>
+
+                        <div className="sContent_left_data_2"></div>
+
+                        <div className="sContent_left_data_3"></div>
+                    </div>
+                </div>
+
             </div>
 
             <div className="sContent_right"></div>
@@ -17,4 +69,4 @@ const FirstSection = ()=>{
     )
 }
 
-export default FirstSection;
+export default SecondSection;
