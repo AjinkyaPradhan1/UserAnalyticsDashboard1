@@ -68,11 +68,27 @@
 
 .userDropdownContent{
     display: flex;
-    
+    flex-direction: row;
     width: 172px;
     height: 48px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid rgba(174, 171, 216, 0.40);
     background: #20053F;
+
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+    color: #8F9BB7;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

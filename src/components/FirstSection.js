@@ -11,7 +11,7 @@ const FirstSection = ()=>{
             <div className="extraSpace"></div>
             <div className="userDropdown">
                 <div className="userDropdownContent">
-                    <div className="Text">User</div>
+                    <div className="text">User</div>
                     <div className="symbol"></div>
                 </div>
             </div>
