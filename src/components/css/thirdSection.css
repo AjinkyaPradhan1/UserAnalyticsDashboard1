@@ -13,6 +13,26 @@
 .thirdFirst,.thirdSecond,.thirdThird{
     display: flex;
     width: 32%;
-    height: 90%;
-    background-color: red;
+    height: 84%;
+}
+
+.thirdFirst{
+    border-radius: 16px;
+    background: rgba(9, 24, 35, 0.05);
+    box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
+}
+
+.thirdSecond{
+    border-radius: 16px;
+    opacity: 0.1;
+    background: rgba(9, 24, 35, 0.05);
+
+    box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
+
+}
+
+.thirdThird{
+    border-radius: 16px;
+    background: rgba(9, 24, 35, 0.05);
+    box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
 }
