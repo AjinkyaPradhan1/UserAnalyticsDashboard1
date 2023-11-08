@@ -81,7 +81,8 @@
 
 .text{
     display: flex;
-    width: 50%;
+    width: 70%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     
@@ -91,4 +92,15 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.symbol{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10px;
+    height: 5px;
+    flex-shrink: 0;  
 }
