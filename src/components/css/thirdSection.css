@@ -10,28 +10,32 @@
     justify-content: space-around;
 }
 
-.thirdFirst,.thirdSecond,.thirdThird{
+
+.thirdFirst{
     display: flex;
     width: 32%;
     height: 84%;
-}
-
-.thirdFirst{
     border-radius: 16px;
     background: rgba(9, 24, 35, 0.05);
     box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
 }
 
 .thirdSecond{
+    display: flex;
+    width: 32%;
+    height: 84%;
     border-radius: 16px;
     opacity: 0.1;
     background: rgba(9, 24, 35, 0.05);
-
+    
     box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
 
 }
 
 .thirdThird{
+    display: flex;
+    width: 32%;
+    height: 84%;
     border-radius: 16px;
     background: rgba(9, 24, 35, 0.05);
     box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;

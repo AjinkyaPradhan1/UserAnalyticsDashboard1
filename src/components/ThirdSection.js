@@ -7,7 +7,9 @@ const ThirdSection = ()=>{
             <div className="thirdFirst">
                 
             </div>
-            <div className="thirdSecond"></div>
+            <div className="thirdSecond">
+                
+            </div>
             <div className="thirdThird"></div>
         </div>
     )
