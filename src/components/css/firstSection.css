@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+
+.fContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    background-color: red;
+}
+
+.appName{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+
+.extraSpace{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: orangered
+}
+
+
+.userDropdown{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(71, 185, 140);
+}
