@@ -7,7 +7,6 @@
     flex-direction: row;
     width: 100%;
     height: 80%;
-    background-color: red;
 }
 
 .appName{
@@ -15,7 +14,38 @@
     flex-direction: column;
     width: 25%;
     height: 100%;
-    background-color: burlywood;
+}
+
+.appNametop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 39px */
+
+    background: linear-gradient(180deg, #F6F6F7 14.29%, #7E808F 82.14%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.appNamebottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    color: #AEBBDA;
+
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 27px */
 }
 
 
@@ -24,7 +54,6 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
-    background-color: orangered
 }
 
 
@@ -33,5 +62,17 @@
     flex-direction: column;
     width: 25%;
     height: 100%;
-    background-color: rgb(71, 185, 140);
+    align-items: center;
+    justify-content: center;
+}
+
+.userDropdownContent{
+    display: flex;
+    
+    width: 172px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(174, 171, 216, 0.40);
+    background: #20053F;
 }
