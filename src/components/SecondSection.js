@@ -1,6 +1,5 @@
 import React from "react"
 import "../components/css/secondSection.css"
-import VisiterCounter from "../components/VisiterCounter"
 
 const SecondSection = ()=>{
 
@@ -18,7 +17,7 @@ const SecondSection = ()=>{
                         <div className="sContent_left_data_2">
                             <div className="sContent_left_data_2_content">
                                 <div className="sContent_left_data_2_content1">Total Visits</div>
-                                <div className="sContent_left_data_2_content2"><VisiterCounter/></div>
+                                <div className="sContent_left_data_2_content2">648</div>
                             </div>
                         </div>
 
@@ -32,7 +31,12 @@ const SecondSection = ()=>{
                             <div className="sContent_left_data_1_square"></div>
                         </div>
 
-                        <div className="sContent_left_data_2"></div>
+                        <div className="sContent_left_data_2">
+                            <div className="sContent_left_data_2_content">
+                                <div className="sContent_left_data_2_content1">Total Subscribers</div>
+                                <div className="sContent_left_data_2_content2">32</div>
+                            </div>
+                        </div>
 
                         <div className="sContent_left_data_3"></div>
                     </div>
@@ -44,7 +48,12 @@ const SecondSection = ()=>{
                             <div className="sContent_left_data_1_square"></div>
                         </div>
 
-                        <div className="sContent_left_data_2"></div>
+                        <div className="sContent_left_data_2">
+                            <div className="sContent_left_data_2_content">
+                                <div className="sContent_left_data_2_content1">Active Users</div>
+                                <div className="sContent_left_data_2_content2">28</div>
+                            </div>
+                        </div>
 
                         <div className="sContent_left_data_3"></div>
                     </div>
@@ -56,7 +65,12 @@ const SecondSection = ()=>{
                             <div className="sContent_left_data_1_square"></div>
                         </div>
 
-                        <div className="sContent_left_data_2"></div>
+                        <div className="sContent_left_data_2">
+                            <div className="sContent_left_data_2_content">
+                                <div className="sContent_left_data_2_content1">Total Clicks</div>
+                                <div className="sContent_left_data_2_content2">199</div>
+                            </div>
+                        </div>
 
                         <div className="sContent_left_data_3"></div>
                     </div>
